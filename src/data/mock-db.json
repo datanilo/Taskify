@@ -1,0 +1,161 @@
+{
+    "user": {
+      "id": "1",
+      "name": "Juan Pérez",
+      "email": "juan.perez@ejemplo.com",
+      "avatarUrl": "https://github.com/shadcn.png",
+      "lists": [
+        {
+          "id": "1",
+          "name": "Personal",
+          "tasks": [
+            {
+              "id": "1",
+              "title": "Comprar leche",
+              "completed": false,
+              "starred": false,
+              "createdAt": "2023-10-01T12:00:00.000Z",
+              "addedToMyDay": true
+            },
+            {
+              "id": "2",
+              "title": "Llamar a mamá",
+              "completed": true,
+              "starred": false,
+              "createdAt": "2023-10-01T12:00:00.000Z",
+              "addedToMyDay": false
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Trabajo",
+          "tasks": [
+            {
+              "id": "3",
+              "title": "Enviar informe",
+              "completed": false,
+              "starred": true,
+              "createdAt": "2023-10-01T12:00:00.000Z",
+              "addedToMyDay": false
+            },
+            {
+              "id": "4",
+              "title": "Reunión con el equipo",
+              "completed": true,
+              "starred": false,
+              "createdAt": "2023-10-01T12:00:00.000Z",
+              "addedToMyDay": true
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Compras",
+          "tasks": [
+            {
+              "id": "5",
+              "title": "Comprar pan",
+              "completed": false,
+              "starred": false,
+              "createdAt": "2023-10-01T12:00:00.000Z",
+              "addedToMyDay": false
+            },
+            {
+              "id": "6",
+              "title": "Comprar frutas",
+              "completed": true,
+              "starred": false,
+              "createdAt": "2023-10-01T12:00:00.000Z",
+              "addedToMyDay": false
+            }
+          ]
+        }
+      ],
+      "sharedLists": [
+        {
+          "id": "4",
+          "name": "Proyecto Casa",
+          "sharedWith": {
+            "id": "2",
+            "name": "Ana García",
+            "email": "ana.garcia@example.com",
+            "avatarUrl": "https://i.pravatar.cc/150?u=2"
+          },
+          "tasks": [
+            {
+              "id": "7",
+              "title": "Pintar la sala",
+              "completed": false,
+              "starred": true,
+              "createdAt": "2023-10-01T12:00:00.000Z",
+              "addedToMyDay": false
+            },
+            {
+              "id": "8",
+              "title": "Comprar muebles",
+              "completed": true,
+              "starred": false,
+              "createdAt": "2023-10-01T12:00:00.000Z",
+              "addedToMyDay": true
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Viaje",
+          "sharedWith": {
+            "id": "3",
+            "name": "Carlos López",
+            "email": "carlos.lopez@example.com",
+            "avatarUrl": "https://i.pravatar.cc/150?u=3"
+          },
+          "tasks": [
+            {
+              "id": "9",
+              "title": "Reservar hotel",
+              "completed": false,
+              "starred": false,
+              "createdAt": "2023-10-01T12:00:00.000Z",
+              "addedToMyDay": true
+            },
+            {
+              "id": "10",
+              "title": "Comprar boletos de avión",
+              "completed": true,
+              "starred": true,
+              "createdAt": "2023-10-01T12:00:00.000Z",
+              "addedToMyDay": false
+            }
+          ]
+        }
+      ],
+      "notifications": [
+        {
+          "id": "1",
+          "message": "Tienes 2 tareas pendientes para hoy",
+          "read": false,
+          "timestamp": "2023-10-01T11:00:00.000Z"
+        },
+        {
+          "id": "2",
+          "message": "Nueva función disponible: Listas personalizadas",
+          "read": false,
+          "timestamp": "2023-10-01T10:00:00.000Z"
+        },
+        {
+          "id": "3",
+          "message": "Ana García compartió una lista contigo",
+          "read": true,
+          "timestamp": "2023-09-30T12:00:00.000Z"
+        },
+        {
+          "id": "4",
+          "message": "Recordatorio: Reunión de equipo mañana",
+          "read": true,
+          "timestamp": "2023-09-29T12:00:00.000Z"
+        }
+      ]
+    }
+  }
+  
